@@ -1,0 +1,82 @@
+body {
+    margin: 0px;
+}
+
+.topbar{
+    display: flex;
+    padding: 5px;
+    height: 35px;
+    background-color: lightgray;
+}
+
+.button{
+    border-right-width: 1px;
+    border-right-color: rgb(70, 64, 64);
+    border-right-style: solid;
+    margin: 4px;
+    padding-right: 6px;
+    font-size: 20px;
+}
+
+.main{
+    background-image: url(../images/Oman.jpeg);
+    height: 500px;
+    background-size: cover;
+    padding-top: 20%;
+    align-items: center;
+    padding-left: 18%;
+}
+
+.main-text{
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+
+.text-background{
+    background-color: rgba(28, 90, 206, 0.199);
+    border-radius: 10px;
+    width: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    box-shadow: 2px 2px 2px 1px rgb(187, 185, 185);
+}
+
+.box-background{
+    background-color: beige;
+    height: 400px;
+    display: flex;
+}
+
+.box{
+    background-color: rgb(85, 131, 216);
+    width: fit-content;
+    height: fit-content;
+    margin-top: 50px;
+    margin-left: 70px;
+    border-radius: 15px;
+    padding: 30px;
+    width: 500px;
+    height: 220px;
+    box-shadow: 2px 2px 2px 2px rgb(187, 185, 185);
+}
+
+.title{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.body-text{
+    color: white;
+}
+
+.footer{
+    background-color: rgb(160, 158, 158);
+    color: white;
+    padding: 25px;
+    padding-left: 80px;
+    padding-right: 8px;
+}
